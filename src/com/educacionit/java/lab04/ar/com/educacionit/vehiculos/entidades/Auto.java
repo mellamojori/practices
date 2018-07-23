@@ -18,8 +18,8 @@ public class Auto extends Vehículo {
 
     @Override
     public String toString(){
-        return String.valueOf("Vehículo marca: " + marca + ". Modelo: " + modelo + ". Color: " + color +
-                              ". Largo: " + getLargo() + "m. Ancho: " + getAncho() + "m. Alto: " + getAlto() + "m.");
+        return "Vehículo marca: " + marca + ". Modelo: " + modelo + ". Color: " + color +
+                              ". Largo: " + getLargo() + "m. Ancho: " + getAncho() + "m. Alto: " + getAlto() + "m.";
     }
 
 
